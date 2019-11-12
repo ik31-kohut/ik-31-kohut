@@ -31,10 +31,21 @@ def main(url=''):
 
     return True
 
+def get_date(url=''):
+    try:
+        r = requests.get(url=url)
+        return r.json()
+    except:
+        return get_time_if_url_not_work()
 
-def home_work():
+def home_work(t):
     # Ваш захист
-    pass
+    if 'AM' in t:
+        res = 'Доброї ночі'
+    elif 'PM' in t:
+        res = 'Доброго дня'
+    print(res)
+    return res
 
 
 if __name__ == "__main__":
@@ -43,3 +54,5 @@ if __name__ == "__main__":
     main()
     print(a + "\nРезультат з правильною URL: ")
     main('http://date.jsontest.com/')
+    d = get_date('http://date.jsontest.com/')
+    home_work(d['time'])

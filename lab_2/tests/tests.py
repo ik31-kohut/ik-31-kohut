@@ -1,5 +1,5 @@
 import unittest
-from app import main
+from app import main, home_work
 
 
 class TestClass(unittest.TestCase):
@@ -23,4 +23,5 @@ class TestClass(unittest.TestCase):
 
     def test_home_work(self):
         # Ваш захист
-        self.assertTrue(True)
+        self.assertEqual('Доброго дня', home_work('03:44:30 PM'))
+        self.assertEqual('Доброї ночі', home_work('03:44:30 AM'))
