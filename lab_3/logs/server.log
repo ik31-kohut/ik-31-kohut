@@ -1,0 +1,45 @@
+INFO 2019-11-26 15:20:08,852 root : Сервер доступний. Час на сервері: 2019-11-26T13:20:08.792
+INFO 2019-11-26 15:20:08,853 root : Запитувана сторінка: : /health/
+INFO 2019-11-26 15:20:08,853 root : Відповідь сервера містить наступні поля:
+INFO 2019-11-26 15:20:08,853 root : Ключ: date, Значення: 2019-11-26T13:20:08.792
+INFO 2019-11-26 15:20:08,853 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-26 15:20:08,853 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'kohut', 'release': '5.0.0-32-generic', 'version': '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'machine': 'x86_64', 'processor': 'x86_64'}
+INFO 2019-11-26 15:20:08,853 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-26 15:21:08,963 root : Сервер доступний. Час на сервері: 2019-11-26T13:21:08.918
+INFO 2019-11-26 15:21:08,964 root : Запитувана сторінка: : /health/
+INFO 2019-11-26 15:21:08,964 root : Відповідь сервера містить наступні поля:
+INFO 2019-11-26 15:21:08,964 root : Ключ: date, Значення: 2019-11-26T13:21:08.918
+INFO 2019-11-26 15:21:08,964 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-26 15:21:08,964 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'kohut', 'release': '5.0.0-32-generic', 'version': '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'machine': 'x86_64', 'processor': 'x86_64'}
+INFO 2019-11-26 15:21:08,964 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-26 15:22:09,042 root : Сервер доступний. Час на сервері: 2019-11-26T13:22:08.992
+INFO 2019-11-26 15:22:09,042 root : Запитувана сторінка: : /health/
+INFO 2019-11-26 15:22:09,042 root : Відповідь сервера містить наступні поля:
+INFO 2019-11-26 15:22:09,042 root : Ключ: date, Значення: 2019-11-26T13:22:08.992
+INFO 2019-11-26 15:22:09,042 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-26 15:22:09,043 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'kohut', 'release': '5.0.0-32-generic', 'version': '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'machine': 'x86_64', 'processor': 'x86_64'}
+INFO 2019-11-26 15:22:09,043 root : Ключ: client_info, Значення: python-requests/2.22.0
+ERROR 2019-11-26 15:23:09,070 root : Error Connecting: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2b60a358d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2019-11-26 15:23:43,095 root : Error Connecting: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /healthsdfdsffd (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10dbfaa160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2019-11-26 15:24:43,249 root : Http Error: 404 Client Error: Not Found for url: http://localhost:8000/healthsdfdsffd
+INFO 2019-11-26 15:25:01,380 root : Сервер доступний. Час на сервері: 2019-11-26T13:25:01.331
+INFO 2019-11-26 15:25:01,380 root : Запитувана сторінка: : /health/
+INFO 2019-11-26 15:25:01,380 root : Відповідь сервера містить наступні поля:
+INFO 2019-11-26 15:25:01,380 root : Ключ: date, Значення: 2019-11-26T13:25:01.331
+INFO 2019-11-26 15:25:01,380 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-26 15:25:01,380 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'kohut', 'release': '5.0.0-32-generic', 'version': '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'machine': 'x86_64', 'processor': 'x86_64'}
+INFO 2019-11-26 15:25:01,381 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-26 15:26:01,443 root : Сервер доступний. Час на сервері: 2019-11-26T13:26:01.401
+INFO 2019-11-26 15:26:01,443 root : Запитувана сторінка: : /health/
+INFO 2019-11-26 15:26:01,443 root : Відповідь сервера містить наступні поля:
+INFO 2019-11-26 15:26:01,443 root : Ключ: date, Значення: 2019-11-26T13:26:01.401
+INFO 2019-11-26 15:26:01,443 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-26 15:26:01,443 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'kohut', 'release': '5.0.0-32-generic', 'version': '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'machine': 'x86_64', 'processor': 'x86_64'}
+INFO 2019-11-26 15:26:01,444 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-26 15:27:01,547 root : Сервер доступний. Час на сервері: 2019-11-26T13:27:01.503
+INFO 2019-11-26 15:27:01,548 root : Запитувана сторінка: : /health/
+INFO 2019-11-26 15:27:01,548 root : Відповідь сервера містить наступні поля:
+INFO 2019-11-26 15:27:01,548 root : Ключ: date, Значення: 2019-11-26T13:27:01.503
+INFO 2019-11-26 15:27:01,548 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-26 15:27:01,548 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'kohut', 'release': '5.0.0-32-generic', 'version': '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'machine': 'x86_64', 'processor': 'x86_64'}
+INFO 2019-11-26 15:27:01,548 root : Ключ: client_info, Значення: python-requests/2.22.0
