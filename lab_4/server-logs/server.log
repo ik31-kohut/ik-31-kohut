@@ -1,0 +1,29 @@
+ERROR 2019-12-03 22:12:37,020 root : Error Connecting: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO 2019-12-03 22:13:37,295 root : Сервер доступний. Час на сервері: 2019-12-03T22:13:37.216
+INFO 2019-12-03 22:13:37,296 root : Запитувана сторінка: : /health/
+INFO 2019-12-03 22:13:37,296 root : Відповідь сервера містить наступні поля:
+INFO 2019-12-03 22:13:37,296 root : Ключ: date, Значення: 2019-12-03T22:13:37.216
+INFO 2019-12-03 22:13:37,296 root : Ключ: current_page, Значення: /health/
+INFO 2019-12-03 22:13:37,296 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'b8762a2d99f1', 'release': '5.0.0-36-generic', 'version': '#39~18.04.1-Ubuntu SMP Tue Nov 12 11:09:50 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-12-03 22:13:37,296 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-12-03 22:14:37,420 root : Сервер доступний. Час на сервері: 2019-12-03T22:14:37.373
+INFO 2019-12-03 22:14:37,420 root : Запитувана сторінка: : /health/
+INFO 2019-12-03 22:14:37,421 root : Відповідь сервера містить наступні поля:
+INFO 2019-12-03 22:14:37,421 root : Ключ: date, Значення: 2019-12-03T22:14:37.373
+INFO 2019-12-03 22:14:37,422 root : Ключ: current_page, Значення: /health/
+INFO 2019-12-03 22:14:37,422 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'b8762a2d99f1', 'release': '5.0.0-36-generic', 'version': '#39~18.04.1-Ubuntu SMP Tue Nov 12 11:09:50 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-12-03 22:14:37,422 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-12-03 22:15:37,547 root : Сервер доступний. Час на сервері: 2019-12-03T22:15:37.499
+INFO 2019-12-03 22:15:37,547 root : Запитувана сторінка: : /health/
+INFO 2019-12-03 22:15:37,547 root : Відповідь сервера містить наступні поля:
+INFO 2019-12-03 22:15:37,547 root : Ключ: date, Значення: 2019-12-03T22:15:37.499
+INFO 2019-12-03 22:15:37,547 root : Ключ: current_page, Значення: /health/
+INFO 2019-12-03 22:15:37,547 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'b8762a2d99f1', 'release': '5.0.0-36-generic', 'version': '#39~18.04.1-Ubuntu SMP Tue Nov 12 11:09:50 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-12-03 22:15:37,547 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-12-03 22:16:37,666 root : Сервер доступний. Час на сервері: 2019-12-03T22:16:37.623
+INFO 2019-12-03 22:16:37,666 root : Запитувана сторінка: : /health/
+INFO 2019-12-03 22:16:37,666 root : Відповідь сервера містить наступні поля:
+INFO 2019-12-03 22:16:37,666 root : Ключ: date, Значення: 2019-12-03T22:16:37.623
+INFO 2019-12-03 22:16:37,667 root : Ключ: current_page, Значення: /health/
+INFO 2019-12-03 22:16:37,667 root : Ключ: server_info, Значення: {'system': 'Linux', 'node': 'b8762a2d99f1', 'release': '5.0.0-36-generic', 'version': '#39~18.04.1-Ubuntu SMP Tue Nov 12 11:09:50 UTC 2019', 'machine': 'x86_64', 'processor': ''}
+INFO 2019-12-03 22:16:37,667 root : Ключ: client_info, Значення: python-requests/2.22.0
