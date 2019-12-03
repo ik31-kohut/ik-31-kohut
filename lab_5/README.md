@@ -77,3 +77,44 @@
     ![](images/lab_5_10.png)
     
 ---
+
+## docker-compose.yaml
+
+1. Створюю файл `docker-compose.yaml` у кореновій папці проекту та заповнюю вмістом з прикладу.
+    
+    * Він містить дві мережі: `secret` та `public`;
+    * Це потрібно для того, щоб відокремити `redis` від доступу з зовнішніх ресурсів;
+    * Тобто `redis` знаходиться в `private`, `tests` в `public`, тому `tests` не може доступитись до `redis`.
+
+2. Перевіряю чи `Docker-compose` встановлений та працює у системі, а далі просто запускаю `docker-compose`:
+    
+        docker-compose version
+        docker-compose -p lab5 up
+        
+3. Перевіряю чи працює веб-сайт. У браузері заходжу на адресу: `http://127.0.0.1/`:
+    
+    ![mainpage](images/lab_5_11.png)
+    
+    ![/hits](images/lab_5_12.png)
+    
+    ![/logs](images/lab_5_13.png)
+    
+4. Перевіряю чи компоуз створив докер імеджі.
+
+    * Теги `compose-tests`, `compose-app`:
+    
+        ![docker images](images/lab_5_14.png)
+        
+    * Замінюю їх на власний репозиторій і перезапускаю `docker-compose`, почиститивши перед цим імеджі за допомогою `make`:
+        
+        ![docker images](images/lab_5_15.png)
+        
+5. Зупиняю проект натиснувши `Ctrl+C` і чищу ресурси створені компоуз `docker-compose down`.
+    
+    ![docker-compose down](images/lab_5_16.png)
+    
+6. Завантажую створені імеджі до `Docker Hub` репозиторію за допомого команди:
+
+        sudo docker-compose push
+        
+---
